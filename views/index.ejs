@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olamide Project</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" rel="stylesheet" >
+  <link href="css/style.css"  rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css " rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+</body>
+    <div class="row" >
+         
+        <div class="col-sm-4"></div><br><br>
+        <div class="col-sm-4 shadow-sm p-3 mb-5 bg-white rounded" style="padding: 40px"><br><br>
+            
+            <form class="contactForm" action="/create-user" method="POST" >
+
+                
+                <div class="form-group">
+                    <label for="exampleInputName">Enter Surname</label>
+                    <input type="surname" id="surname"  name="surname" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Surname" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">First Name</label>
+                    <input type="firstname" id="firstname" name="firstname"   class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter First Name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">Other name</label>
+                    <input type="othername" id="othername"  name="othername" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter other name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">Date of birth</label>
+                    <input type="dateofbirth" id="dateofbirth"  name="dateofbirth"  class="form-control" id="exampleInputDate" aria-describedby="dateHelp" placeholder="Enter Date of birth" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="exampleInputName">Nationality</label>
+                     <input type="nationality" id="nationality"  name="nationality"  class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your nationality" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">Residential town</label>
+                     <input type="residenttown" id="residenttown"  name="residenttown"  class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your Residential town" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">Occupation</label>
+                     <input type="occupation" id="occupation"  name="occupation"  class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your occupation" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">State of Birth</label>
+                     <input type="state" id="state"  name="state"  class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your state of birth" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleInputName">LGA of Birth</label>
+                     <input type="local" id="local"  name="local"  class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your LGA of birth" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Disabled</label>
+                    <select class="form-control" id="category" type="category" name="category" id="exampleFormControlSelect1" required>
+                    <option></option>
+                    <option>Yes</option>
+                    <option>No</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Work status</label>
+                    <select class="form-control" id="workstatus"  type="workstatus" name="workstatus"  id="exampleFormControlSelect1" required>
+                    <option></option>
+                    <option>Employee</option>
+                    <option>Employer</option>
+                    <option>Unemployed</option>
+                    <option>Student</option>
+                    </select>
+                </div>
+    
+                <button type="submit" name="submit" class="btn btn-primary" >Submit</button>
+            </form>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+    
+</html>
