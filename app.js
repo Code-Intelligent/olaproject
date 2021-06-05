@@ -3,6 +3,7 @@ var path = require('path');
 var express = require('express');
 var ejs = require("ejs")
 var bodyParser = require("body-parser")
+const key  = require('./config/key');
 var cookieParser = require("cookie-parser");
 const mongoose = require('mongoose');
 
@@ -38,6 +39,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 var Routes = require('./routes/index');
 app.use('/', Routes);
 
-app.listen(3000, () => {
-    console.log('This application is already running on port ' + 3000);
+app.listen(key.PORT, () => {
+    console.log('This application is already running on port ', key.PORT);
 });
