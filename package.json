@@ -1,11 +1,11 @@
 {
-  "name": "enoch",
+  "name": "Censor",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "node app.js"
   },
   "author": "",
   "license": "ISC",
